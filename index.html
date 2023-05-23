@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nexus Shop</title>
     <link rel="stylesheet" href="./Css/style.css" />
-    <link rel="shortcut icon" href="./logo.JPG" />
+    <link rel="shortcut icon" href="./logo.png" />
   </head>
   <body>
-
     <!-- Creating a header section -->
 
     <header>
@@ -43,58 +42,105 @@
     <div id="container">
       <div id="filters">
         <div id="filterBy">
-        <p class="filt">Filter by brand: </p><br>
-        <input type="checkbox" name="Iphone" id="iphone">
-        <label for="iphone">Iphone</label><br>
-        <input type="checkbox" name="samsung" id="samsung">
-        <label for="samsung">Samsung</label><br>
-        <input type="checkbox" name="xiaomi" id="xiaomi">
-        <label for="xiaomi">Xiaomi</label><br>
-        <input type="checkbox" name="huawei" id="huawei">
-        <label for="huawei">Huawei</label><br><br>
-    </div>
+          <p class="filt">Filter by brand:</p>
+          <br />
+          <input type="checkbox" name="Iphone" id="iphone" />
+          <label for="iphone">Iphone</label><br />
+          <input type="checkbox" name="samsung" id="samsung" />
+          <label for="samsung">Samsung</label><br />
+          <input type="checkbox" name="xiaomi" id="xiaomi" />
+          <label for="xiaomi">Xiaomi</label><br />
+          <input type="checkbox" name="huawei" id="huawei" />
+          <label for="huawei">Huawei</label><br /><br />
+        </div>
 
-    <!-- Sorting -->
+        <!-- Sorting -->
 
-    <div id="sortBy">
-        <label for="sorting">Sort by:</label><br><br>
-        <input type="checkbox" name="price" id="priceLow"/>
-          <label for="priceLow">Price low to high</label><br>
-          <input type="checkbox" name="price" id="priceHigh">
-          <label for="priceHigh">Price high to low</label><br>
-          
-        
+        <div id="sortBy">
+          <label for="sorting">Sort by:</label><br /><br />
+          <input type="checkbox" name="price" id="priceLow" />
+          <label for="priceLow">Price low to high</label><br />
+          <input type="checkbox" name="price" id="priceHigh" />
+          <label for="priceHigh">Price high to low</label><br />
+
           <form action="" method="">
             <label for="rangePrice"
-              >Price range from 0 to <span id="setPrice">200000 RSD</span>:
-            </label><br>
+              >Price range from 0 to
+              <span id="setPrice">200000 RSD</span>: </label
+            ><br />
             <input
               type="range"
               min="0"
               max="200000"
               value="200000"
               id="rangePrice"
-            /><br/><br/>
+            /><br /><br />
           </form>
         </div>
-    </div>
+      </div>
 
-    <!-- Devices section -->
-    
+      <!-- Devices section -->
+
       <div id="devices">
-       <h1>Devices</h1>
-       <div id="devicesList">
-
-       </div>
+        <h1>Devices</h1>
+        <div id="devicesList"></div>
       </div>
 
       <!-- About us section -->
 
-      <div id="about">
+      <div id="aboutUs">
         <h2>About us</h2>
-        <p></p>
+        <div id="about">
+          <h2>Discover a World of Smartphones at Nexus Shop</h2>
+          <p>
+            Welcome to Nexus Shop, your premier online destination for suprime
+            costumer experience. We are dedicated to bringing you the latest and
+            greatest mobile devices and services, ensuring that you stay
+            connected and ahead in today's fast-paced digital landscape.
+            <br /><br />
+            Nexus Shop was born in 2000 in United Kingdom when Paul Richard
+            created the first independent distribution chain of mobile
+            telephony: Carphone Warehouse. Today Nowadays Nexus Shop has a
+            presence in Europe (United Kingdom, Spain, Ireland, Holland,
+            Germany, Switzerland and Serbia) and we are working towards greater
+            expansion. <br /><br />
+            The company is currently managed by more than 50 professionals,
+            enhancing consumer experience and great availability for our
+            customers in the always revolutionary world of mobile technology.
+            Today more than ever before, we help our clients to find the perfect
+            product for them and we make sure you always get the maximum match.
+            <br /><br />
+            Nexus Shop is not just an online store; it's a vibrant community of
+            smartphone enthusiasts. Connect with like-minded individuals through
+            our blog, social media platforms, and interactive forums. Our
+            mission is to be at customer disposal at any time, increase customer
+            awareness and make our clients always happy! <br /><br />
+            Welcome to Nexus Shop, where smartphones become extraordinary
+            companions.
+          </p>
+        </div>
+        <div id="values">
+          <h3>IMPARTIALITY</h3>
+          <p>We are always on the client's side.</p>
+          <h3>EXPERTS</h3>
+          <p>
+            We have the best people and we give them the preparation to be able
+            to give the best advice.
+          </p>
+          <h3>SIMPLICITY</h3>
+          <p>We are here to make technology easy and closer to people.</p>
+          <h3>PASSION</h3>
+          <p>
+            We are passionate about technology and we want our clients to
+            experience it too.
+          </p>
+          <h3>INNOVATION</h3>
+          <p>
+            Technology is always in continuous change; we want it to be fun and
+            accessible.
+          </p>
+        </div>
       </div>
-
     </div>
   </body>
 </html>

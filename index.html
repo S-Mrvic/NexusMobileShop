@@ -1,44 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nexus Shop</title>
-    <link rel="stylesheet" href="./Css/style.css">
-    <link rel="shortcut icon" href="./673498.png" />
-</head>
-<body>
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="shortcut icon" href="./logo.JPG" />
+  </head>
+  <body>
 
     <!-- Creating a header section -->
-    <header>
-            <nav class="navbar">
-                <a href="#" class="navBrand">Nexus</a>
 
-                <ul class="navMenu">
-                    <li class="navItem">
-                        <a href="#" class="navLink">Home</a>
-                    </li>
-                    <li class="navItem">
-                        <a href="#" class="navLink">About</a>
-                    </li>
-                    <li class="navItem">
-                        <a href="#" class="navLink">Contact</a>
-                    </li>
-                    <li class="navButton">
-                        <button class="login">Login</button>
-                    </li>
-                </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="navBrand">Nexu<span>S</span>hop</a>
+
+        <ul class="navMenu">
+          <li class="navItem">
+            <a href="#" class="navLink">Home</a>
+          </li>
+          <li class="navItem">
+            <a href="#" class="navLink">About</a>
+          </li>
+          <li class="navItem">
+            <a href="#" class="navLink">Contact</a>
+          </li>
+          <li class="navButton">
+            <button class="login">Login</button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
 
+    <!-- Filtering -->
 
+    <div id="container">
+      <div id="filters">
+        <div id="filterBy">
+        <p class="filt">Filter by brand: </p><br>
+        <input type="checkbox" name="Iphone" id="iphone">
+        <label for="iphone">Iphone</label><br>
+        <input type="checkbox" name="samsung" id="samsung">
+        <label for="samsung">Samsung</label><br>
+        <input type="checkbox" name="xiaomi" id="xiaomi">
+        <label for="xiaomi">Xiaomi</label><br>
+        <input type="checkbox" name="huawei" id="huawei">
+        <label for="huawei">Huawei</label><br><br>
+    </div>
 
+    <!-- Sorting -->
+
+    <div id="sortBy">
+        <label for="sorting">Sort by:</label><br><br>
+        <input type="checkbox" name="price" id="priceLow"/>
+          <label for="priceLow">Price low to high</label><br>
+          <input type="checkbox" name="price" id="priceHigh">
+          <label for="priceHigh">Price high to low</label><br>
+          
+        
+          <form action="" method="">
+            <label for="rangePrice"
+              >Price range from 0 to <span id="setPrice">200000 RSD</span>:
+            </label><br>
+            <input
+              type="range"
+              min="0"
+              max="200000"
+              value="200000"
+              id="rangePrice"
+            /><br/><br/>
+          </form>
+        </div>
+    </div>
+
+    <!-- Devices section -->
     
-</body>
+      <div id="devices">
+       <h1>Devices</h1>
+       <div id="devicesList">
+
+       </div>
+      </div>
+
+      <!-- About us section -->
+
+      <div id="about">
+        <h2>About us</h2>
+        <p></p>
+      </div>
+
+    </div>
+  </body>
 </html>

@@ -169,6 +169,102 @@
     text-align: justify;
 }
 
+/* Contact seection */
+
+#contact{
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 0.8fr;
+    padding: 30px 10px;
+    width: 100%;
+    border-bottom: 2px solid rgb(151, 1, 1);
+}
+
+#contactForm{
+    border: 2px solid rgb(151, 1, 1);
+
+}
+
+#contactForm input{
+    justify-content: center;
+}
+
+#contactForm h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.field{
+    width: 90%;
+    padding: 10px 20px;
+    background-color: rgba(230, 230, 230, 0.6);
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    font-size: 1rem;
+    margin: 10px 20px;
+    transition: 0.3s;
+}
+
+.field:hover{
+    background-color: rgb(151, 1, 1);
+    color: white;
+}
+
+textarea{
+    resize: none;
+}
+
+#btn{
+    width: 90%;
+    padding: 10px 20px;
+    background-color: rgba(230, 230, 230, 0.6);
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    font-size: 1.3rem;
+    margin: 20px;
+    transition: 0.3s;
+    background-color: rgb(151, 1, 1);
+    color: white;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(116, 115, 115);
+}
+
+#location{
+   margin: 10px 15%;
+}
+
+#location h2{
+    text-align: center;
+    font-size: 2rem ;
+    padding-bottom: 20px;
+}
+
+#location p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social{
+    padding: 10px;
+}
+
+.social h2{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.links img{
+    width: 23%;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+    filter: grayscale(1.0);
+    padding: 15px;
+}
 
 
 

@@ -328,7 +328,15 @@ textarea{
     padding: 15px;
 }
 
+.links h3{
+    font-size: 1.4rem;
+    padding-top: 20px;
+}
 
+.links p{
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
 
 
 

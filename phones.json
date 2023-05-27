@@ -463,10 +463,10 @@
       {
         "id": 17,
         "marka": "XIAOMI",
-        "model": "REDMI NOTE 12 TURBO",
+        "model": "REDMI NOTE 12T",
         "slika": {
           "putanja": "images/xiaomi-redmi-note-12-turbo.jpg",
-          "alt": "redmiNote12Turbo"
+          "alt": "redmiNote12t"
         },
         "kolicina": 13,
         "cena": 67.999,

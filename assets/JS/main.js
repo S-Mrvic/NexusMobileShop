@@ -14,19 +14,20 @@ http.onload = function () {
 				<img src="${item.slika.putanja}" alt="${item.slika.alt}" />
 				<h3>${item.marka} ${item.model}</h3>
 				<ul>
-					<li>Ekran:  ${item.specifikacije.ekran}</li>
+					<li>Display:  ${item.specifikacije.ekran}</li>
 					<li>RAM: ${item.specifikacije.RAM}</li>
-					<li>Procesor: ${item.specifikacije.procesor}</li>
-					<li>Operativni sistem: ${item.specifikacije.operativniSistem}</li>
-					<li>Kamera:
+                    <li>Memory: ${item.specifikacije.memorija}
+					<li>Proccesor: ${item.specifikacije.procesor}</li>
+					<li>OS: ${item.specifikacije.operativniSistem}</li>
+					<li>Camera:
 						<ul>
-							<li>Prednja kamera: ${item.specifikacije.kamera.prednja}</li>
-							<li>Zadnja kamera: ${item.specifikacije.kamera.zadnja}</li>
+							<li>Front: ${item.specifikacije.kamera.prednja}</li>
+							<li>Rear: ${item.specifikacije.kamera.zadnja}</li>
 						</ul>
 					</li>
 				</ul>
 				<h4>${item.cena} <span>RSD</span></h4>
-				<a class="chartText" href="#" data-id="${item.id}">DODAJ U KORPU</a>
+				<a class="chartText" href="#" data-id="${item.id}">ADD TO CHART</a>
                 </div>
             </div> `;
     }

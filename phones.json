@@ -275,7 +275,7 @@
         "cena": 57.999,
         "specifikacije": {
           "ekran": 6.4,
-          "procesor": "Exynos 1380",
+          "procesor": "Exynos 1380 chipshet (5nm)",
           "RAM": "8GB",
           "memorija": "128gb",
           "operativniSistem": "Android 13",
@@ -487,7 +487,7 @@
         "marka": "XIAOMI",
         "model": "12S ULTRA",
         "slika": {
-          "putanja": "images/xiaomi-redmi-note-12-turbo.jpg",
+          "putanja": "images/xiaomi-12s-ultra.jpg",
           "alt": "12sUltra"
         },
         "kolicina": 3,

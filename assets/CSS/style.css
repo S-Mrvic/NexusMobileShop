@@ -120,6 +120,7 @@
 #devicesList{
     display: flex;
     flex-flow: wrap;
+    justify-content: center;
     gap: 20px;
     flex-grow: 3;
 }
@@ -127,11 +128,25 @@
 .block{
     display: inline-block;
     text-align: center;
-    justify-content: space-evenly;
     border: 1px solid rgb(151, 1, 1);
-    padding: 10px;
+    padding: 10px 20px 50px 20px;
     border-radius: 20px;
-    max-width: fit-content;
+    width: 300px;
+    height: 100%;
+    box-shadow: 10px 10px 25px grey;
+}
+
+.block a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(151, 1, 1);
+    color: white;
+    border-radius: 20px;
+}
+
+.block a:hover{
+    background-color: rgb(116, 115, 115);
+    transition: ease-in 0.2s;
 }
 
 #devicesList ul{
@@ -165,6 +180,7 @@
 	font-weight: 900;
 	margin:20px 0;
 }
+
 
 
 /* About us section */
@@ -226,6 +242,7 @@
 
 #contactForm{
     border: 2px solid rgb(151, 1, 1);
+    box-shadow: 10px 10px 25px grey;
 
 }
 

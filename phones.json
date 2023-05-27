@@ -52,7 +52,7 @@
           "alt": "iphone13ProMax"
         },
         "kolicina": 3,
-        "cena": 174.590,
+        "cena": 174.599,
         "specifikacije": {
           "ekran": 6.7,
           "procesor": "Apple A15 Bionic",
@@ -118,7 +118,7 @@
           "alt": "iphone12ProMax"
         },
         "kolicina": 3,
-        "cena": 166.090,
+        "cena": 165.999,
         "specifikacije": {
           "ekran": 6.7,
           "procesor": "Apple A14 Bionic",
@@ -140,7 +140,7 @@
           "alt": "iphone12Pro"
         },
         "kolicina": 3,
-        "cena": 149.690,
+        "cena": 149.699,
         "specifikacije": {
           "ekran": 6.1,
           "procesor": "Apple A14 Bionic",
@@ -162,7 +162,7 @@
           "alt": "iphone12"
         },
         "kolicina": 5,
-        "cena": 105.000,
+        "cena": 105.999,
         "specifikacije": {
           "ekran": 6.1,
           "procesor": "Apple A14 Bionic",
@@ -187,7 +187,7 @@
         "cena": 171.999,
         "specifikacije": {
           "ekran": 6.8,
-          "procesor": "Qualcomm Snapdragon 8 Gen 2",
+          "procesor": "Qualcomm Snapdragon 8 Gen2",
           "RAM": "8GB",
           "memorija": "256gb",
           "operativniSistem": "Android 13",
@@ -209,7 +209,7 @@
         "cena": 147.999,
         "specifikacije": {
           "ekran": 6.6,
-          "procesor": "Qualcomm Snapdragon 8 Gen 2",
+          "procesor": "Qualcomm Snapdragon 8 Gen2",
           "RAM": "8GB",
           "memorija": "256gb",
           "operativniSistem": "Android 13",
@@ -231,7 +231,7 @@
         "cena": 164.999,
         "specifikacije": {
           "ekran": 6.8,
-          "procesor": "Qualcomm Snapdragon 8 Gen 1",
+          "procesor": "Qualcomm Snapdragon 8 Gen1",
           "RAM": "12GB",
           "memorija": "256gb",
           "operativniSistem": "Android 13",
@@ -246,7 +246,7 @@
         "marka": "SAMSUNG",
         "model": "GALAXY S21 ULTRA",
         "slika": {
-          "putanja": "images/samsung-galaxy-s21-ultra-5g.jpg",
+          "putanja": "images/samsung-galaxy-s21-ultra-5g-.jpg",
           "alt": "s21Ultra"
         },
         "kolicina": 2,
@@ -297,10 +297,10 @@
         "cena": 149.999,
         "specifikacije": {
           "ekran": 6.67,
-          "procesor": "Qualcomm Snapdragon 8+ Gen 1",
+          "procesor": "Qualcomm Snapdragon 8+ Gen1",
           "RAM": "8GB",
           "memorija": "256gb",
-          "operativniSistem": "Android 13 - HarmonyOS 3.1",
+          "operativniSistem": "Android 13",
           "kamera": {
             "prednja": "13MP",
             "zadnja": "48MP, 48MP, 13MP"
@@ -319,10 +319,10 @@
         "cena": 139.999,
         "specifikacije": {
           "ekran": 6.67,
-          "procesor": "Qualcomm Snapdragon 8+ Gen 1",
+          "procesor": "Qualcomm Snapdragon 8+ Gen1",
           "RAM": "8GB",
           "memorija": "256gb",
-          "operativniSistem": "Android 13 - HarmonyOS 3.1",
+          "operativniSistem": "Android 13",
           "kamera": {
             "prednja": "13MP",
             "zadnja": "48MP, 12MP, 13MP"
@@ -344,7 +344,7 @@
           "procesor": "Qualcomm Snapdragon 778G",
           "RAM": "8GB",
           "memorija": "256gb",
-          "operativniSistem": "Android 13 - HarmonyOS 3.0",
+          "operativniSistem": "Android 13",
           "kamera": {
             "prednja": "60MP, 8MP",
             "zadnja": "50MP, 8MP"
@@ -366,7 +366,7 @@
           "procesor": "Qualcomm Snapdragon 778G",
           "RAM": "8GB",
           "memorija": "256gb",
-          "operativniSistem": "Android 13 - HarmonyOS 3.0",
+          "operativniSistem": "Android 13",
           "kamera": {
             "prednja": "60MP, 8MP",
             "zadnja": "50MP, 8MP"
@@ -385,7 +385,7 @@
         "cena": 162.999,
         "specifikacije": {
           "ekran": 6.73,
-          "procesor": "Qualcomm Snapdragon 8 Gen 2",
+          "procesor": "Qualcomm Snapdragon 8 Gen2",
           "RAM": "12GB",
           "memorija": "256gb",
           "operativniSistem": "Android 13",
@@ -407,7 +407,7 @@
         "cena": 154.999,
         "specifikacije": {
           "ekran": 6.73,
-          "procesor": "Qualcomm Snapdragon 8 Gen 2",
+          "procesor": "Qualcomm Snapdragon 8 Gen2",
           "RAM": "12GB",
           "memorija": "256gb",
           "operativniSistem": "Android 13",
@@ -429,8 +429,7 @@
         "cena": 119.999,
         "specifikacije": {
           "ekran": 6.36,
-          "procesor": "Qualcomm Snapdragon 8 Gen 2",
-          "RAM": "8GB",
+          "procesor": "Qualcomm Snapdragon 8 Gen2", 
           "memorija": "256gb",
           "operativniSistem": "Android 13",
           "kamera": {
@@ -473,13 +472,35 @@
         "cena": 67.999,
         "specifikacije": {
           "ekran": 6.67,
-          "procesor": "Qualcomm Snapdragon 8+ Gen 1",
+          "procesor": "Qualcomm Snapdragon 8+ Gen1",
           "RAM": "8GB",
           "memorija": "256gb",
           "operativniSistem": "Android 13",
           "kamera": {
             "prednja": "16MP",
             "zadnja": "64MP, 8MP, 2MP"
+          }
+        }
+      },
+      {
+        "id": 18,
+        "marka": "XIAOMI",
+        "model": "12S ULTRA",
+        "slika": {
+          "putanja": "images/xiaomi-redmi-note-12-turbo.jpg",
+          "alt": "12sUltra"
+        },
+        "kolicina": 3,
+        "cena": 147.999,
+        "specifikacije": {
+          "ekran": 6.73,
+          "procesor": "Qualcomm Snapdragon 8+ Gen1",
+          "RAM": "8GB",
+          "memorija": "256gb",
+          "operativniSistem": "Android 13",
+          "kamera": {
+            "prednja": "32MP",
+            "zadnja": "50MP, 48MP, 48MP"
           }
         }
       }

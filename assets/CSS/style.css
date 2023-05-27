@@ -107,7 +107,8 @@
 
 #devices{
     border-bottom: 2px solid rgb(151, 1, 1);
-    padding-bottom: 20px ;
+    padding-bottom: 30px ;
+    max-width: 100%;
 }
 
 #devices h1{
@@ -115,6 +116,56 @@
     padding-top: 20px;
     padding-bottom: 30px;
 }
+
+#devicesList{
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    flex-grow: 3;
+}
+
+.block{
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(151, 1, 1);
+    padding: 10px;
+    border-radius: 20px;
+    max-width: fit-content;
+}
+
+#devicesList ul{
+    text-align: center;
+}
+
+#devicesList ul li{
+	padding:5px 0px;
+	font-size:1.2rem;
+	font-weight: 100;
+    list-style-type: none;
+}
+
+#devicesList img{
+	width:170px;
+	height:220px;
+	margin-top: 35px;
+	margin-bottom:15px;
+}
+
+
+
+#devicesList h3{
+	font-size:1.4rem;
+	font-weight: 300;
+	margin-bottom:10px;
+	text-align:center;
+}
+#devicesList h4{
+	font-size: 1.5rem;;
+	font-weight: 900;
+	margin:20px 0;
+}
+
 
 /* About us section */
 

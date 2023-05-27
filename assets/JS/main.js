@@ -29,7 +29,7 @@ http.onload = function () {
 					</li>
 				</ul>
 				<h4>${item.cena} <span>RSD</span></h4>
-				<a class="chartText" href="#" data-id="${item.id}">ADD TO CHART</a>
+				<a class="chartText" href="#cart" data-id="${item.id}">ADD TO CART</a>
                 </div>
             </div> `;
     }

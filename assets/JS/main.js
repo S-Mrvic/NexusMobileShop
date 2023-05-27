@@ -1,3 +1,5 @@
+//Adding devices from json file to HTML
+
 let http = new XMLHttpRequest();
 
 http.open("get", "phones.json", true);

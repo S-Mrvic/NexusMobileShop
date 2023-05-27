@@ -107,19 +107,13 @@
 
 #devices{
     border-bottom: 2px solid rgb(151, 1, 1);
-    padding-bottom: 20px;
+    padding-bottom: 20px ;
 }
 
 #devices h1{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
-}
-
-#devicesList{
-    background-color: rgb(255, 123, 123);
-    height: 50vh;
-    width: 100%;
 }
 
 /* About us section */
@@ -262,7 +256,7 @@ textarea{
     width: 23%;
     aspect-ratio: 2/2;
     object-fit: contain;
-    filter: grayscale(1.0);
+    /* filter: grayscale(1.0); */
     padding: 15px;
 }
 

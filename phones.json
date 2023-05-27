@@ -3,7 +3,6 @@
       "id": 1,
       "marka": "IPHONE",
       "model": "14 PRO MAX",
-      "tipProizvoda": "mobilni telefon",
       "slika": {
         "putanja": "images/apple-iphone-14-pro-max-.jpg",
         "alt": "iphone14ProMax"
@@ -26,7 +25,6 @@
         "id": 2,
         "marka": "IPHONE",
         "model": "14",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-14.jpg",
           "alt": "iphone14"
@@ -49,7 +47,6 @@
         "id": 3,
         "marka": "IPHONE",
         "model": "13 PRO MAX",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-13-pro-max.jpg",
           "alt": "iphone13ProMax"
@@ -72,7 +69,6 @@
         "id": 4,
         "marka": "IPHONE",
         "model": "13",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-13.jpg",
           "alt": "iphone13"
@@ -95,7 +91,6 @@
         "id": 5,
         "marka": "IPHONE",
         "model": "13 mini",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-13-mini.jpg",
           "alt": "iphone13Mini"
@@ -118,7 +113,6 @@
         "id": 6,
         "marka": "IPHONE",
         "model": "12 PRO MAX",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-12-pro-max-.jpg",
           "alt": "iphone12ProMax"
@@ -141,7 +135,6 @@
         "id": 7,
         "marka": "IPHONE",
         "model": "12 PRO",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-12-pro--.jpg",
           "alt": "iphone12Pro"
@@ -164,7 +157,6 @@
         "id": 8,
         "marka": "IPHONE",
         "model": "12",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/apple-iphone-12.jpg",
           "alt": "iphone12"
@@ -187,7 +179,6 @@
         "id": 9,
         "marka": "SAMSUNG",
         "model": "GALAXY S23 ULTRA",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/samsung-galaxy-s23-ultra-5g.jpg",
           "alt": "s23Ultra"
@@ -210,7 +201,6 @@
         "id": 10,
         "marka": "SAMSUNG",
         "model": "GALAXY S23 PLUS",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/samsung-galaxy-s23-plus-5g.jpg",
           "alt": "s23Plus"
@@ -233,7 +223,6 @@
         "id": 11,
         "marka": "SAMSUNG",
         "model": "GALAXY S22 ULTRA",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/samsung-galaxy-s22-ultra-5g.jpg",
           "alt": "s22Ultra"
@@ -256,7 +245,6 @@
         "id": 12,
         "marka": "SAMSUNG",
         "model": "GALAXY S21 ULTRA",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/samsung-galaxy-s21-ultra-5g.jpg",
           "alt": "s21Ultra"
@@ -279,7 +267,6 @@
         "id": 13,
         "marka": "SAMSUNG",
         "model": "GALAXY A54",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/samsung-galaxy-a54.jpg",
           "alt": "galaxyA54"
@@ -302,7 +289,6 @@
         "id": 14,
         "marka": "HUAWEI",
         "model": "P60 PRO",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/huawei-p60-pro.jpg",
           "alt": "p60Pro"
@@ -325,7 +311,6 @@
         "id": 15,
         "marka": "HUAWEI",
         "model": "P60",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/huawei-p60.jpg",
           "alt": "p60"
@@ -348,7 +333,6 @@
         "id": 16,
         "marka": "HUAWEI",
         "model": "NOVA 11 ULTRA",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/huawei-nova11-ultra.jpg",
           "alt": "nova11Ultra"
@@ -371,7 +355,6 @@
         "id": 17,
         "marka": "HUAWEI",
         "model": "NOVA 11 PRO",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/huawei-nova11-pro.jpg",
           "alt": "nova11Pro"
@@ -394,7 +377,6 @@
         "id": 18,
         "marka": "XIAOMI",
         "model": "13 ULTRA",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/xiaomi-13-ultra.jpg",
           "alt": "xiaomi13Ultra"
@@ -417,7 +399,6 @@
         "id": 19,
         "marka": "XIAOMI",
         "model": "13 PRO",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/xiaomi-13-pro-black.jpg",
           "alt": "xiaomi13Pro"
@@ -440,7 +421,6 @@
         "id": 20,
         "marka": "XIAOMI",
         "model": "13",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/xiaomi-13-red.jpg",
           "alt": "xiaomi13"
@@ -463,7 +443,6 @@
         "id": 17,
         "marka": "XIAOMI",
         "model": "REDMI NOTE 12S",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/xiaomi-redmi-note-12s.jpg",
           "alt": "redmiNote12s"
@@ -486,7 +465,6 @@
         "id": 17,
         "marka": "XIAOMI",
         "model": "REDMI NOTE 12 TURBO",
-        "tipProizvoda": "mobilni telefon",
         "slika": {
           "putanja": "images/xiaomi-redmi-note-12-turbo.jpg",
           "alt": "redmiNote12Turbo"

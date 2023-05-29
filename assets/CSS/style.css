@@ -244,10 +244,13 @@
     border: 2px solid rgb(151, 1, 1);
     box-shadow: 10px 10px 25px grey;
     border-radius: 20px;
+    max-width: fit-content;
+    padding: 0 10px 0 10px;
 }
 
 #contactForm input{
     justify-content: center;
+    box-sizing: border-box;
 }
 
 #contactForm h2{
@@ -299,6 +302,7 @@ textarea{
    margin: 10px 15%;
 }
 
+
 #location h2{
     text-align: center;
     font-size: 2rem ;
@@ -343,9 +347,68 @@ textarea{
 
 
 
-/* Media Query */
+/* Media Queries */
 
-@media(max-width:768px){
+/* EXTRA LAGRE SCREENS */
+
+@media screen and (max-width: 1600px){
+    #location iframe{
+        width: 100%;
+        max-height: fit-content;
+    }
+    .links{
+        padding: 20px;
+        text-align: center;
+    }
+    .links img{
+        width: 40%;
+    }
+}
+
+/* LARGE SCREENS */
+
+@media screen and (max-width: 1200px){
+    #contact{
+        display: inline-block;
+    }
+    #contactForm{
+        width: 100%;
+    }
+    #location{
+        margin: 30px;
+    }
+    #location p{
+        font-size: 1.5rem;
+    }
+    .links{
+        padding: 20px;
+        text-align: center;
+    }
+    .links img{
+        width: 10%;
+    }
+
+}
+
+/* LAPTOPS SCREENS */
+
+@media screen and (max-width: 1024px){
+    .links{
+        padding: 20px;
+        text-align: center;
+    }
+    .links img{
+        width: 15%;
+    }
+}
+
+/* TABLETS */
+
+
+@media screen and (max-width:768px){
+    #container{
+        width: 89%;
+    }
     .hamburger{
         display: block;
     }
@@ -378,5 +441,21 @@ textarea{
 
     .navMenu.active{
         left: 0;
+    }
+}
+
+/* PHONES */
+
+@media screen and (max-width:600px){
+    #aboutUs section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .links{
+        padding: 20px;
+        text-align: center;
+    }
+    .links img{
+        width: 20%;
     }
 }

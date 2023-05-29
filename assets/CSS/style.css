@@ -243,7 +243,7 @@
 #contactForm{
     border: 2px solid rgb(151, 1, 1);
     box-shadow: 10px 10px 25px grey;
-
+    border-radius: 20px;
 }
 
 #contactForm input{
@@ -313,6 +313,9 @@ textarea{
 
 .social{
     padding: 10px;
+    border: 2px solid rgb(151, 1, 1);
+    box-shadow: 10px 10px 25px grey;
+    border-radius: 20px;
 }
 
 .social h2{

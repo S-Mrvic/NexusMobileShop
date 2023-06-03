@@ -10,6 +10,9 @@
 
 #head{
     background-color: rgb(151, 1, 1);
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .navbar li{
@@ -38,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .navBrand{

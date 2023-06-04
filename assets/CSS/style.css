@@ -48,26 +48,11 @@
     font-size: 2.8rem;
 }
 
-.login{
-    padding: 5px 15px;
-    border-radius: 8px;
-    background-color: white;
-    color: rgb(151, 1, 1);
-    transition: 0.3s ease-in-out;
-    font-size: 1.5rem;
-}
-
-.login:hover{
-    background-color: rgb(116, 115, 115);
-    color: white;
-    cursor: pointer;
-}
-
 .navLink{
     transition: 0.7s ease;
 }
 .navLink:hover{
-    color: rgb(116, 115, 115);
+    color: orange;
     font-size: 1.7rem;
     cursor: pointer;
 }
@@ -286,19 +271,19 @@ textarea{
 #btn{
     width: 90%;
     padding: 10px 20px;
-    background-color: rgba(230, 230, 230, 0.6);
     outline: none;
-    border: 2px solid rgba(0, 0, 0, 0);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: 20px;
     transition: 0.3s;
     background-color: rgb(151, 1, 1);
     color: white;
+    border-radius: 20px;
 }
 
 #btn:hover{
     cursor: pointer;
-    background-color: rgb(116, 115, 115);
+    background-color: orange;
+    transition: 0.3s ease-in-out;
 }
 
 #location{

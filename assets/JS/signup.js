@@ -19,7 +19,7 @@ document.getElementById('signup').addEventListener('submit', function(event) {
     if (response.ok) {
       return response.json();
     } else {
-      throw new Error('Došlo je do greške prilikom slanja zahteva. Status: ' + response.status);
+      throw new Error('An error occurred while sending the request. Status: ' + response.status);
     }
   })
   .then(response => {

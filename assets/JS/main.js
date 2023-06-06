@@ -9,7 +9,6 @@ document.getElementById("huawei").checked = true;
 
 // Global functions
 
-// Function to fetch the data
 getData = function () {
   fetch("http://127.0.0.1:3000/phones.json")
   .then(response => {

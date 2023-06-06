@@ -174,3 +174,20 @@ setInterval(function () {
 
 
 
+//Hamburger menu
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navMenu");
+
+hamburger.addEventListener("click", ()=>{
+
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active")
+})
+
+//Setting to close navMenu when someone clicks on items
+document.querySelectorAll(".navLink").forEach(e => {
+  e.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+})

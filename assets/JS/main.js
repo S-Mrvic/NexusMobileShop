@@ -9,19 +9,23 @@ document.getElementById("huawei").checked = true;
 
 // Global functions
 
-
+// Function to fetch the data
 getData = function () {
- var xhr = new XMLHttpRequest();
- xhr.open("GET", "http://127.0.0.1:3000/phones.json", true);
-
- xhr.onreadystatechange = function (){
-   if(xhr.readyState === 4 && xhr.status === 200){
-     let products = JSON.parse(xhr.responseText);
-     Product = products;
-   }
- }
-
- xhr.send();
+  fetch("http://127.0.0.1:3000/phones.json")
+  .then(response => {
+    if (response.ok) {
+      return response.json();
+    } else {
+      throw new Error("Error: " + response.status);
+    }
+  })
+  .then(data => {
+    let products = JSON.parse(data);
+    Product = products
+  })
+  .catch(error => {
+    console.error("Fetch error:", error);
+  });
 }
 
 //Function to refresh site
@@ -78,7 +82,7 @@ function refreshSite (){
          </li>
        </ul>
        <h4>${item.cena} <span>RSD</span></h4>
-       <button class="chartText" data-id="${item.id}">ADD TO CART</button>
+       <a class="chartText" href="#cart" data-id="${item.id}">ADD TO CART</a>
        </div>
      </div> `;
  }

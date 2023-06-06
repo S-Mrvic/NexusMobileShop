@@ -78,7 +78,7 @@ function refreshSite (){
          </li>
        </ul>
        <h4>${item.cena} <span>RSD</span></h4>
-       <a class="chartText" href="#cart" data-id="${item.id}">ADD TO CART</a>
+       <button class="chartText" data-id="${item.id}">ADD TO CART</button>
        </div>
      </div> `;
  }

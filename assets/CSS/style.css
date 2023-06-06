@@ -132,9 +132,10 @@
     border-radius: 20px;
 }
 
+
 .block a:hover{
     background-color: rgb(116, 115, 115);
-    transition: ease-in 0.2s;
+    cursor: pointer;
 }
 
 #devicesList ul{
@@ -339,7 +340,6 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
 }
 
 #center{
